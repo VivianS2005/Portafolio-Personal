@@ -1,0 +1,245 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Catamaran:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prata&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Catamaran:wght@100..900&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prata&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Belleza&family=Catamaran:wght@100..900&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prata&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Belleza&family=Catamaran:wght@100..900&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prata&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+header {
+  width: 100%;
+  background-image:  url("../img/Fondo logo.png");
+	 background-size: cover; 
+    background-position: center; 
+}
+
+#hero{
+	background-color: #C3F1E9;
+}
+
+#Servicio{
+	background-color: #BAEEF3;
+}
+
+#Servivio, #Ejemplos,
+#Contacto, #Model_3D,#Videos,
+#Digital, #Edicion, #Portafolio {
+	margin-top: 5px;
+}
+
+#Servicio, #Ejemplos,
+#Contacto {
+	margin-top: 10px;
+}
+
+#hero{
+	margin-top: 5px; 
+}
+
+#Contacto {
+	margin-bottom: 25px;
+}
+
+
+#hero p{
+	margin-top: 25px;
+}
+
+
+#Titulo h2, #hero h2 {
+	margin-top: 45px;
+	font-size: 105px;
+	font-family: "Winky Sans"; 
+}
+
+#Portafolio h3, #Model_3D h3,#Videos h3,
+#Digital h3, #Edicion h3 {
+	font-size: 55px;
+	font-family:"Chakra Petch"; 
+} 
+
+#Servicio h2, #Contacto h2 {
+	font-size: 55px;
+	font-family:"Chakra Petch";
+}
+
+#Ejemplos h2 {
+	font-size: 55px;
+	font-family:"Chakra Petch";
+}
+
+#Portafolio h3, #Model_3D h3,
+#Edicion h3 {
+	margin-bottom: 15px;	
+}
+
+ #Videos h6, #Digital h6 {
+	font-size: 25px;
+	font-family:"Oswald";
+	 font-weight: 600px;
+}
+
+#Ejemplos h5, #Contacto h5{
+	font-size: 45px;
+	font-family:"Oswald";
+	 font-weight: 600px;
+}
+
+#Ejemplos h6, #Contacto h6{
+	font-size: 15px;
+	font-family:"Oswald";
+	 font-weight: 100px;
+}
+
+#Contacto h3{
+	font-size: 35px;
+	font-family:"Oswald";
+	 font-weight: 200px;
+	
+}
+
+#Contacto h5{
+	color: #51B9B0,
+}
+
+#Videos{
+	margin-bottom: 25px;
+}
+
+#hero p, #Servicio p{
+	font-family:"Exo"; 
+	font-size: 35px,	
+}
+
+
+header .logo {
+  display: flex;
+  justify-content: center; 
+}
+.logo {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.logo img {
+    margin-bottom: 10px;
+}
+
+#Contacto img{
+	width: 300px;
+	height: 300px;
+	border-radius: 500px;
+}
+
+footer {
+	background-color:#3ACCCA; 
+  padding: 10px 20px; 
+  box-sizing: border-box; 
+	font-family:"Oswald";
+	 font-weight: 600px;
+	color: #EBFFFD;
+}
+
+Footer a{
+	color: #EBFFFD;
+}
+
+a {
+	text-decoration: none;
+}
+
+#Portafolio, #Model_3D, #Ejemplos{
+	background-color: #9FE2E9;
+	border-radius: 10px;
+}
+
+#Titulo, #hero h2, #Contacto h2 {
+	color: #479FA8;
+}
+
+#Portafolio h3, #Model_3D h3{
+  color: #1F469C;
+}
+
+#Edicion h3, #Videos h3{
+  color: #01745D;
+}
+
+#Videos h6{
+  color: #01745D;
+}
+
+#Digital h3{
+  color: #008962;
+}
+
+#Digital h6{
+  color: #008962;
+}
+
+#Portafolio img, #Model_3D img{
+		border: 5px solid #12203a;
+}
+
+#Edicion, #Videos{
+	background-color: #A0EBE7;
+	border-radius: 10px;
+}
+
+#Edicion img, #Videos img{
+	border: 5px solid #123a34;	
+}
+
+#Digital {
+	background-color: #B5EDDC;
+	border-radius: 10px;
+}
+
+#Digital img {
+	border: 5px solid #144e57;
+}
+
+#Portafolio img, #Model_3D img, #Edicion img, 
+#Videos img, #Digital img, #Ejemplos img,
+#hero img{
+	border-radius: 10px;
+}
+
+.btn-custom {
+    background-color:#076175;
+	font-size: 15px;
+	font-family:"Oswald";
+	 font-weight: 100px;
+    color: white;  
+}
+
+.btn-custom:hover {
+    background-color: #036463;  
+    color: white;
+}
+
+#Contacto i{
+	color: #075A67;
+}
+
+#Contacto a {
+	color: #075A67;
+}
+
+#Servicio h2{
+	color:#2B4C85;
+}
+
+#Ejemplos h2{
+	color:#266078;
+}
+
+#Ejemplos h5{
+	color:#497689;
+}
+
+#Ejemplos h6{
+	color:#4790AF;
+}
